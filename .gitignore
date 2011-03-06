@@ -2,4 +2,5 @@ pkg
 doc
 Manifest
 .idea
-.gem
+*.gem
+*.pem
