@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Mondok"]
-  s.date = %q{2011-03-05}
+  s.date = %q{2011-03-06}
   s.description = %q{Parses fixed length files into arrays}
   s.email = %q{matt.mondok@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/fixedfixer.rb"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{fixedfixer}
   s.rubygems_version = %q{1.5.2}
-  s.summary = %q{Parses fixed length files into arrays}
+  s.summary = %q{FixedFixer takes either a fixed-length file or an array of fixed-length strings and parses it into the specified sections. }
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
