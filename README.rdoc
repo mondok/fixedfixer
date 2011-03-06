@@ -1,0 +1,25 @@
+= About
+
+FixedFixer takes either a fixed-length file or a fixed-length array of strings and parses it based on given lengths.
+
+Author:: Matt Mondok
+Date:: 03/05/2011
+Homepage:: http://wwww.sprocketlauncher.com/
+Copyright:: 2011 Matt Mondok
+
+== Examples
+
+=== Parsing a file
+    # fixed_length_file.txt contains lines:
+    # thiscarison
+    # helptheisof
+
+    require 'fixedfixer'
+
+    FixedFixer.parse("fixed_length_file.txt", [4,3,2,2])
+    # returns [["this", "car", "is", "on"], ["help", "the", "is", "of"]]
+
+=== Parsing an array
+    require 'fixedfixer'
+    FixedFixer.parse(["thiscarison","helptheisof"],[4,3,2,2])
+    # returns [["this", "car", "is", "on"], ["help", "the", "is", "of"]]
