@@ -4,3 +4,4 @@ Manifest
 .idea
 *.gem
 *.pem
+.DS_Store
