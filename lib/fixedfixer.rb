@@ -1,9 +1,4 @@
 module FixedFixer
-#  def self.included(base)
-#    base.extend ClassMethods
-#  end
-
-#  module ClassMethods
   def self.parse(input, lengths)
     format = "a" << lengths.join("a")
     if input.is_a? Array
@@ -31,6 +26,5 @@ module FixedFixer
       f.close
     end
     result
-#    end
   end
 end
