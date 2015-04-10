@@ -4,7 +4,7 @@ FixedFixer takes either a fixed-length file or a fixed-length array of strings a
 
 Author:: Matt Mondok
 Date:: 03/05/2011
-Homepage:: http://www.matt.digital/
+Homepage:: http://www.matt.digital
 Copyright:: 2011 Matt Mondok
 
 == Examples
